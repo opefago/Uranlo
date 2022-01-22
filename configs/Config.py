@@ -8,3 +8,5 @@ keys = dict(
     ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN"),
     ACCESS_TOKEN_SECRET = os.environ.get("ACCESS_TOKEN_SECRET")
 )
+
+MONGODR_URI = os.environ.get("MONGODB_URI")
